@@ -26,7 +26,7 @@ i) #To Read,display the image
 ```
 import cv2
 img =cv2.imread('image.jpg',1)
-cv2.imshow('colorimage',color_image)
+cv2.imshow('colorimage',img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
